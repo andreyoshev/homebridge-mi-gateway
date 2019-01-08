@@ -1,5 +1,5 @@
 {
-  "name": "homebridge-mi-gateway",
+  "name": "homebridge-mi-gateway-light",
   "version": "0.1.4",
   "description": "XiaoMi Gateway plugin for HomeBridge.",
   "keywords": [
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stanzhai/homebridge-mi-gateway.git"
+    "url": "git+https://github.com/andreyoshev/homebridge-mi-gateway"
   },
   "author": "stanzhai",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/stanzhai/homebridge-mi-gateway/issues"
+    "url": "https://github.com/andreyoshev/homebridge-mi-gateway/issues"
   },
-  "homepage": "https://github.com/stanzhai/homebridge-mi-gateway#readme",
+  "homepage": "https://github.com/andreyoshev/homebridge-mi-gateway#readme",
   "engines": {
     "node": ">=6.0.0",
     "homebridge": ">=0.4.1"
