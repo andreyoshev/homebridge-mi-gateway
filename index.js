@@ -188,5 +188,5 @@ MiGateway.prototype = {
                 callback(res);
             }
         }).catch(callback);
-    },
+    }
 }
