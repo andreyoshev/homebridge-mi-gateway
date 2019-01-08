@@ -90,7 +90,7 @@ MiGateway.prototype = {
                 resolve(that._device);
                 return;
             }
-            miio.device({address: that.config.ip})
+            miio.device({address: that.config.ip, token: that.config.token}})
                 .then(res => {
                     const children = res.children();
                     for (const child of children) {
